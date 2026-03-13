@@ -1,85 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sherif Yasser - Full Stack Developer</title>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: 'Roboto', sans-serif; background: #f4f4f9; color: #333; line-height: 1.6; }
-  header { background: #0d1117; color: #fff; padding: 60px 20px; text-align: center; }
-  header h1 { font-size: 2.5rem; margin-bottom: 10px; }
-  header p { font-size: 1.2rem; color: #9ba3af; }
-  section { padding: 60px 20px; max-width: 1000px; margin: auto; }
-  h2 { font-size: 2rem; color: #0d1117; margin-bottom: 20px; border-bottom: 2px solid #ff6b6b; display: inline-block; padding-bottom: 5px; }
-  .cards { display: flex; flex-wrap: wrap; gap: 20px; }
-  .card { background: #fff; border-radius: 8px; padding: 20px; flex: 1 1 250px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: transform 0.2s; }
-  .card:hover { transform: translateY(-5px); }
-  .card h3 { margin-bottom: 10px; color: #ff6b6b; }
-  footer { background: #0d1117; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
-  a { color: #ff6b6b; text-decoration: none; }
-  a:hover { text-decoration: underline; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sherif Yasser - Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Header -->
-<header>
-  <h1>Sherif Yasser</h1>
-  <p>Full Stack Developer | React | Node.js | Flutter | SQL</p>
-</header>
-
-<!-- About Me -->
-<section id="about">
-  <h2>About Me</h2>
-  <p>I'm a Full Stack Developer passionate about building web and mobile applications. I specialize in creating efficient, scalable, and modern solutions for businesses and e-commerce platforms.</p>
-</section>
-
-<!-- Skills -->
-<section id="skills">
-  <h2>Skills</h2>
-  <div class="cards">
-    <div class="card"><h3>React.js</h3><p>Frontend Web Development</p></div>
-    <div class="card"><h3>Node.js</h3><p>Backend & APIs</p></div>
-    <div class="card"><h3>Flutter</h3><p>Cross-platform Mobile Apps</p></div>
-    <div class="card"><h3>SQL</h3><p>Database Design & Queries</p></div>
-  </div>
-</section>
-
-<!-- Projects -->
-<section id="projects">
-  <h2>Projects</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>E-Commerce Store</h3>
-      <p>Full Stack web app with product catalog, cart, checkout, and admin panel. Frontend in React, backend in Node.js, database SQL.</p>
-      <a href="#">View Project</a>
+  <!-- Header -->
+  <header>
+    <div class="profile">
+      <img src="profile.jpg" alt="Sherif Yasser">
+      <h1>Sherif Yasser</h1>
+      <p>Full Stack Developer</p>
     </div>
-    <div class="card">
-      <h3>Social Media App</h3>
-      <p>React + Node.js project with user authentication, posts, likes, and comments. Database: SQL.</p>
-      <a href="#">View Project</a>
+  </header>
+
+  <!-- About Me -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I am a passionate Full Stack Developer. I specialize in web and mobile apps with modern technologies.</p>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li>Bachelor of Computer Science – XYZ University</li>
+      <li>Full Stack Web Development Bootcamp – ABC Academy</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Fake E-Commerce Store</h3>
+        <p>Full Stack web app with product catalog, cart, checkout, and admin panel. Frontend in React, backend in Node.js, database SQL.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Fake Social Media App</h3>
+        <p>React + Node.js project with user authentication, posts, likes, and comments. Database: SQL.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Fake Inventory Management</h3>
+        <p>Flutter mobile & web app for managing products, suppliers, and invoices. Backend Node.js + SQL.</p>
+        <a href="#">View Project</a>
+      </div>
+      <div class="card">
+        <h3>Fake Blog Platform</h3>
+        <p>Full Stack blog platform with markdown editor, comments, and user authentication. React + Node.js + SQL.</p>
+        <a href="#">View Project</a>
+      </div>
     </div>
-    <div class="card">
-      <h3>Inventory Management</h3>
-      <p>Web & Mobile app for managing products, suppliers, and invoices. Flutter mobile app + Node.js backend + SQL.</p>
-      <a href="#">View Project</a>
-    </div>
-  </div>
-</section>
+  </section>
 
-<!-- Contact -->
-<section id="contact">
-  <h2>Contact Me</h2>
-  <p>Email: <a href="Sherif.Yasser8@email.com">your@email.com</a></p>
-  <p>GitHub: <a href="https://github.com/Shifoooy">github.com/username</a></p>
-</section>
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+    <p>GitHub: <a href="https://github.com/username">github.com/username</a></p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/username</a></p>
+  </section>
 
-<!-- Footer -->
-<footer>
-  <p>&copy; 2026 Sherif Yasser. All rights reserved.</p>
-</footer>
+  <footer>
+    <p>&copy; 2026 Sherif Yasser. All rights reserved.</p>
+  </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
